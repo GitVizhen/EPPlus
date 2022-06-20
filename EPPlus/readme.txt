@@ -1,3 +1,8 @@
+# EPPlus 4.5.4
+* Targets netstandard2.0
+* Defaulted core logic for worksheets[] to be 1 based to match netframework behaviour. See important notes for 4.5
+* ExcelDataValidationWithFormula - ValidationType != ExcelDataValidationType.Custom was added to validation
+
 # EPPlus 4.5.3.3
 
 ## Announcement: This is the last version of EPPlus under the LGPL License

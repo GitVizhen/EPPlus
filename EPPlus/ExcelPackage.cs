@@ -1214,7 +1214,7 @@ namespace OfficeOpenXml
         }
         static object _lock=new object();
 #if (Core)
-        internal int _worksheetAdd=0;
+        internal int _worksheetAdd=1;
 #else
         internal int _worksheetAdd=1;
 #endif
